@@ -15,5 +15,5 @@ fn main() {
     //CONSTANTS (must be all caps)
     const SECONDS_IN_MINUTE: u32 = 60;
     println!("{}", SECONDS_IN_MINUTE);
-    //constants cannot change value unlike let
+    //constants cannot change value unlike le
 }
