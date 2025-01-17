@@ -17,4 +17,11 @@ fn main() {
     //tupple
     let tup: (i32, bool, &str) = (10, false, "koni");
     println!("{}", tup.2);
+
+    //arrays
+    let mut arr: [i32; 5] = [1, 2, 3, 4, 5];
+    arr[4] = 3;
+    println!("{}", arr[4]);
+
+    //ps. the difference between tupple and array, in tupple you can assign different data types while in array you can only assign one.
 }
